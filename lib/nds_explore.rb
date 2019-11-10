@@ -11,5 +11,6 @@ end
 def print_first_directors_movie_titles
   index = 0
   nds = directors_database
-  pp nds
+  first_director = nds[0]
+  pp first_director
 end
