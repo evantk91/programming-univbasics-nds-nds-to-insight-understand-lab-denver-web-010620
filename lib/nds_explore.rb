@@ -12,7 +12,7 @@ def print_first_directors_movie_titles
   index = 0
   nds = directors_database[0]
   while index < nds.length do
-    puts "#{nds[inde]}\n"
+    puts "#{nds[index]}\n"
     index += 1
   end
 end
