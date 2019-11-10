@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
   index = 0
   while index < movies.length do
     movie_title = movies[index][:title]
-    puts '#{movie_title}\n'
+    puts movie_title
     index += 1
   end
 end
